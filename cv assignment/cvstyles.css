@@ -1,0 +1,57 @@
+body{
+ background-image: url(https://i.pinimg.com/564x/6d/2e/80/6d2e80806dcf87898724d52401442a23.jpg);
+ background-repeat: no-repeat;
+   background-size: cover;
+}
+
+img{
+    border-radius: 100%;
+    float: left;
+    padding: 5px;
+    margin-right: .5rem;
+    vertical-align: middle;
+}
+.row-container {
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    
+  }
+
+  h2,h3{
+    font-style: oblique;
+  }
+
+  
+  
+  .box {
+    background-color: #d7e6e9;
+    padding: 1rem;
+    margin: 1rem;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+  
+  .box-container {
+    display: flex; /* Use flexbox for the container */
+    justify-content: space-around; /* Adjust as needed */
+    flex-wrap: wrap; /* Allows the boxes to wrap to a new row if needed */
+  }

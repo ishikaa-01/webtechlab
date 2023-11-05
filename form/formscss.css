@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(https://i.pinimg.com/564x/91/55/37/915537cc9da9e502663d4e66a4dac40f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .container {
+    background-color: #fbe6f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    border: 2px solid #161516;
+
+  }
+  
+ 
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+  max-height: 450px; /* Set the desired height of the container */
+  overflow-y: auto; /* Add a vertical scrollbar if the content exceeds the container height */
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-input {
+  width: 90%; /* Adjust the width to your desired value */
+}
+  label {
+    font-weight:initial;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  
+  label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"],
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-bottom: 10px;
+      }
+
+      button{
+        width:45%;
+        padding: 10px 20px ;
+        border-radius: 4px;
+        display:inline;
+      }
+
+      .form-control small{
+         position: absolute;
+         margin: 3px;
+         visibility: hidden;
+      }
+      .form-control.sucess input{
+        border:2px solid rgb(25,167,26);
+
+      }
+      .form-control.error input{
+        border: 2px solid rgb(228,29,22);
+      }
